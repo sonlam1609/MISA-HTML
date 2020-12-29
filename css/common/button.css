@@ -1,0 +1,45 @@
+﻿.m-btn-default {
+    display: flex;
+    align-items: center;
+    background-color: #01B075;
+    border-radius: 4px;
+    height: 40px;
+    color: #FFFFFF;
+    font-family: 'GoogleSans-Regular';
+    line-height: 40px;
+    padding: 0 16px;
+    outline: none;
+    border: none;
+}
+    .m-btn-default:hover {
+        background-color: #2FBE8E;
+    }
+
+
+.icon-add {
+    margin-right: 8px;
+    background-size: contain;
+    background-image: url('/content/icon/add.png');
+    height: 16px;
+    width: 16px;
+}
+
+.m-second-button {
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    height: 40px;
+    padding-left: 24px;
+    padding-right: 24px;
+    text-align: center;
+    outline: none;
+    cursor: pointer;
+}
+
+    .m-second-button:hover{
+        background-color: #e9ebee;
+    }
+.m-btn-refresh {
+    background-image: url('/content/icon/refresh.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}

@@ -1,0 +1,36 @@
+﻿.content {
+    position: absolute;
+    top: 49px;
+    left: 221px;
+    width: calc(100% - 221px);
+    height: calc(100vh - 61px);
+}
+
+.header-content {
+    padding: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.header-content .title {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.header-content .content-fearture {
+    position: absolute;
+    right: 16px;
+}
+
+.paging-bar {
+    height: 50px;
+    border-top: 1px solid #e5e5e5;
+    padding: 0 16px;
+    display: flex;
+    align-items: center;
+}
+    .paging-bar .bar-right{
+        position: absolute;
+        right: 16px;
+        padding-right: 16px;
+    }

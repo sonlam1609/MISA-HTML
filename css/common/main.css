@@ -1,0 +1,11 @@
+﻿body {
+    margin: 0;
+    font-family: GoogleSans-Regular;
+}
+@font-face {
+    font-family: 'GoogleSans-Regular';
+    src: url('../../content/font/GoogleSans-Regular.otf') format('opentype');
+}
+input.border-red{
+    border: 1px solid #f12626;
+}

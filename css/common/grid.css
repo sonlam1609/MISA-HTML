@@ -1,0 +1,29 @@
+﻿.grid-employee {
+    width: calc(100% - 32px);
+}
+
+table th, td {
+    border-bottom: 1px solid #BBBBBB;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding: 10px 16px;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+table tbody {
+    display: block;
+    max-height: 710px;
+    overflow-y: scroll;
+}
+
+    table thead, table tbody tr {
+        display: table;
+        width: 100%;
+        table-layout: fixed;
+    }
+    .salary{
+        text-align: right;
+    }
